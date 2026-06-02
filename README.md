@@ -23,7 +23,7 @@ The project demonstrates basic physically based rendering techniques: ray tracin
 
 ## Preview
 
-![Render preview](screenshots/render-preview.png)
+![Render preview](screenshots/render_preview.png)
 
 ## Tech Stack
 
