@@ -1,0 +1,28 @@
+# Основные параметры рендера
+width=600
+height=600
+spp=200
+maxDepth=10
+gamma=2.2
+exposure=1.0
+
+# Тонемаппинг: clamp, reinhard, normalize_max, normalize_avg
+toneMapping=reinhard
+
+# Камера
+camera.pos=0.5 0.5 -1.4
+camera.target=0.5 0.5 0.5
+camera.fov=45
+
+# Сцена (оставить пустым для Cornell Box)
+sceneFile=
+useBVH=1
+outputFile=render.ppm
+
+# Материалы для Cornell Box
+materials.white=0.75 0.75 0.75
+materials.red=0.75 0.15 0.15
+materials.green=0.15 0.75 0.15
+materials.mirror=0.9 0.9 0.9
+materials.lightIntensity=15.0
+materials.lightSize=0.3

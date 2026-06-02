@@ -1,0 +1,23 @@
+# Build folders
+build/
+cmake-build-*/
+out/
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Executables
+*.exe
+*.out
+path_tracer
+
+# Render outputs
+*.ppm
+
+# OS files
+.DS_Store
+Thumbs.db
